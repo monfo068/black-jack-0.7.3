@@ -459,7 +459,7 @@ void reg()
           divisione(gio, cru, punt, credit, name, contr);
         }
       }
-      if ((((gio[0] + gio[1]) != 21) || (div != "y")) && (contr != "n"))
+      if (((gio[0] + gio[1]) != 21) && (div != "y") && (contr != "n"))
       {
          system("color b"); 
         giocate(gio, cru, punt, credit, name, contr);
